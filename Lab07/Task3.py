@@ -7,7 +7,7 @@ grid = [
     [0, 4, 3, 0, 2, 0],
     [3, 0, 5, 0, 0, 6]
 ]
-
+m = 7
 n = 6          # grid size
 rb, cb = 2, 3  # subgrid size (2x3)
 
