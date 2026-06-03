@@ -4,7 +4,7 @@ class Environment:
         self.optionB = {"time": 5, "cost": 5}    
 
     def get_options(self):
-        return self.optionA, self.optionB
+        
 
 
 class ShoppingAssistant:
