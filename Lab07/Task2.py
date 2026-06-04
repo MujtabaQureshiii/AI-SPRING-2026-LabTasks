@@ -2,7 +2,6 @@
 shirts = [f'S{i}' for i in range(1, 6)]
 pants = [f'P{i}' for i in range(1, 4)]
 sq = [f'SQ{i}' for i in range(1, 3)]
-sq= 0
 # Shirt-Pant combinations
 sp = [s + '-' + p for s in shirts for p in pants]
 
