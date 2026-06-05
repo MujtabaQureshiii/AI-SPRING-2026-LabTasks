@@ -2,6 +2,7 @@ class Environment:
     def __init__(self):
         self.rooms = ["Dirty", "Dirty", "Dirty"]
         self.position = 0   #start in room 1
+        self.direction = "up"
 
     def get_percept(self):
         return self.rooms, self.position
