@@ -2,7 +2,6 @@ class Staff:
     def __init__(self, name, staff_id, department):
         self.name = name
         self.staff_id = staff_id
-        self.department = department
 
     def show_details(self):
         print(f"Name: {self.name}")
