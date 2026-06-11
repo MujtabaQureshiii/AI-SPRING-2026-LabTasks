@@ -1,5 +1,7 @@
 class LightSystem:
-    
+    def __init__(self, room):
+        self.room = room
+        self.status = "OFF"
 
     def turningOn(self):
         self.status = "ON"
