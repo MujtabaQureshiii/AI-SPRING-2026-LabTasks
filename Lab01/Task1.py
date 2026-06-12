@@ -4,7 +4,8 @@ def fibonacci_Series(n):
     b=1
     while a <= n:
         fib_sequence.append(a)
-        a, b =b, a + b      
+        a, b =b, a + b 
+        c, d = t + 5
     return fib_sequence
 
 num = int(input("Enter a number: "))
