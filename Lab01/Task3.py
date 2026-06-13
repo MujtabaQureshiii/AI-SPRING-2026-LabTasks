@@ -5,6 +5,7 @@ for i in word1:
         if i==j:
             word1=word1.replace(i,'#')
             word2=word2.replace(j,'#')
+            break
             
 
 found=True
