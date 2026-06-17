@@ -2,6 +2,7 @@ class Environment:
     def __init__(self):
         self.optionA = {"time": 2, "cost": 10}  
         self.optionB = {"time": 5, "cost": 5}    
+        self.optiionC = {"time": 6, "cost": 10}
 
     def get_options(self):
         return self.optionA, self.optionB
