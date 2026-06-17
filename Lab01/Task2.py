@@ -1,6 +1,7 @@
 numbers=[]
 for i in range(10):
     num = int(input("Enter number: "))
+    num2 = int(input(" Enter number 2: ")
     numbers.append(num)
 
 def prime(n):
