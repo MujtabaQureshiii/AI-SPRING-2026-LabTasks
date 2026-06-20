@@ -9,6 +9,7 @@ def delivery_optimizer(start, jobs):
     time_now = 0
     current = start
     completed = []
+    NotCompleted = []
 
     tasks = jobs.copy()
 
