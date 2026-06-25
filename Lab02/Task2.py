@@ -63,5 +63,4 @@ print()
 teacher.show_details()
 print()
 admin.show_details()
-print()
-researcher.show_details()
+
