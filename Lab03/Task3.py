@@ -9,7 +9,7 @@ class Environment:
 
     def update(self, action):
         if action == "Move Forward":
-            self.position += 1
+            self.position += 2
             self.energy_used += 1
         elif action == "Move Back":
             self.position -= 1
