@@ -6,7 +6,7 @@ def distance(a,b):
 
 def delivery_optimizer(start, jobs):
 
-    time_now = 0
+    time_now = 1
     
     current = start
     completed = []
