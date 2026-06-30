@@ -6,7 +6,7 @@ sq = [f'SQ{i}' for i in range(1, 3)]
 sp = [s + '-' + p for s in shirts for p in pants]
 
 # All possible outfits
-items = sp + sq
+item = sp + sq
 
 # Days of week
 days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
