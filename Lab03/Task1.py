@@ -1,11 +1,11 @@
 class SmartStreetLightAgent:
     def select_action(self, light_intensity, motion_detected):
         if light_intensity == "Bright":
-            return "Light OFF"
+            return "Light_OFF"
         elif light_intensity == "Dim" and motion_detected == "Yes":
-            return "Light ON"
+            return "Light_ON"
         else:
-            return "Light OFF"
+            return "Light_OFF"
 
     def act(self, percept):
         light_intensity, motion_detected = percept
