@@ -34,4 +34,4 @@ for permutation in itertools.permutations(unvisited):
         best_route = full_trip
 
 print("Shortest_Route:", best_route)
-print("Minimum Distance:", best_cost)
+print("Minimum_Distance:", best_cost)
