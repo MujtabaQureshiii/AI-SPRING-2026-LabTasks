@@ -176,7 +176,7 @@ def play():
 
         if winning_move(board, 2):
             print_board(board)
-            print("Computer wins!")
+            print("Computer is the winner!")
             break
 
         print_board(board)
