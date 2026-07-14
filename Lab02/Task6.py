@@ -7,7 +7,7 @@ class Demo:
     def __del__(self):
         print("Object destroyed automatically")
 
-obj1 = Demo(30)
+obj1 = Demo(40)
 
 obj2 = copy.copy(obj1)
 obj3 = copy.deepcopy(obj1)
