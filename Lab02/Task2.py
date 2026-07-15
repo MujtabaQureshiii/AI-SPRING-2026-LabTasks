@@ -47,7 +47,7 @@ class ResearchAssistant(Staff):
 
     def show_details(self):
         super().show_details()
-        print(f"Research Area: {self.research_area}")
+        print(f"Research_Area: {self.research_area}")
         print(f"Stipend: {self.stipend}")
 
 teacher = Teacher("Dr. Ahmed Khan", "T110", "Computer Science", ["AI", "OOP"], 150000)
