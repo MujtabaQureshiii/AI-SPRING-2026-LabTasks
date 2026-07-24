@@ -232,7 +232,7 @@ plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.show()
 
-print("\n Model Comparison")
+print("\n Model_Comparison")
 print(f"Imbalanced Accuracy (Decision Tree): {accuracy_score(y_test_cls, y_pred_cls):.4f}")
 print(f"Balanced Accuracy   (Decision Tree): {accuracy_score(y_test_bal, y_pred_bal):.4f}")
 
