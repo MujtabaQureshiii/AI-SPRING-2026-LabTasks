@@ -52,4 +52,4 @@ if solve():
     for row in grid:
         print(' '.join(str(x) for x in row))
 else:
-    print("There is No solution exist")
+    print("There is No solution ")
