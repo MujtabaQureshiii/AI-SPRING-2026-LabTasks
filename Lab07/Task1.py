@@ -36,7 +36,7 @@ def backtrack(i=0):
 backtrack()
 
 # Print results
-print("Total solutions:", len(solutions))
+print("Total_solutions:", len(solutions))
 
 for s in solutions:
     result = []
