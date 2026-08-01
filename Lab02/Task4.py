@@ -131,6 +131,6 @@ shapes = [
 
 for shape in shapes:
     shape.draw()
-    print("Area:", shape.area())
-    print("Perimeter:", shape.perimeter())
+    print("Area is :", shape.area())
+    print("Perimeter is :", shape.perimeter())
     print()
