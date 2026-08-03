@@ -100,7 +100,7 @@ def play_game():
         print_board()
 
         if check_winner(board, 'O'):
-            print("Computer wins!")
+            print("Computer is the winner!")
             break
         if is_draw(board):
             print("Draw!")
