@@ -233,8 +233,8 @@ plt.ylabel('Actual')
 plt.show()
 
 print("\n Model_Comparison")
-print(f"Imbalanced Accuracy (Decision Tree): {accuracy_score(y_test_cls, y_pred_cls):.4f}")
-print(f"Balanced Accuracy   (Decision Tree): {accuracy_score(y_test_bal, y_pred_bal):.4f}")
+print(f"Imbalanced_Accuracy (Decision Tree): {accuracy_score(y_test_cls, y_pred_cls):.4f}")
+print(f"Balanced_Accuracy   (Decision Tree): {accuracy_score(y_test_bal, y_pred_bal):.4f}")
 
 print("\nConclusion:")
 print("The balanced dataset provides a more honest assessment of the model's ability to detect rejected loans.")
