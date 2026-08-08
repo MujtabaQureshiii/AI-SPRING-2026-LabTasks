@@ -136,7 +136,7 @@ def play():
     if board["player_store"] > board["ai_store"]:
         print("You win!")
     elif board["player_store"] < board["ai_store"]:
-        print("Computer wins!")
+        print("Computer is the winner!")
     else:
         print("Draw!")
 
