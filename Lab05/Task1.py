@@ -84,4 +84,4 @@ maze = [
     [0,1,0,0,0]
 ]
 
-print("Multi-Goal Path:", multi_goal_maze(maze, (0,0), [(4,4),(3,0),(2,3)]))
+print("Multi Goal Path:", multi_goal_maze(maze, (0,0), [(4,4),(3,0),(2,3)]))
