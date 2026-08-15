@@ -68,9 +68,9 @@ ax.scatter(kmeans_3.cluster_centers_[:, 0],
            s=200, c='red', marker='X')
 
 ax.set_title("K-Means Clustering (3 Features)")
-ax.set_xlabel("Feature 1")
-ax.set_ylabel("Feature 2")
-ax.set_zlabel("Feature 3")
+ax.set_xlabel("Feature_1")
+ax.set_ylabel("Feature_2")
+ax.set_zlabel("Feature_3")
 plt.show()
 
 
