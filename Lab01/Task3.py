@@ -19,4 +19,4 @@ for i in word1:
          break
 
 if found==True:
-     print("It is anagram")
+     print("This is anagram")
