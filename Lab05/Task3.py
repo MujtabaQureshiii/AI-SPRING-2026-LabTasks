@@ -55,7 +55,7 @@ def delivery_optimizer(start, jobs):
 
 
 orders = [
-    {"point":(2,5),"start":0,"deadline":9},
+    {"point":(2,5),"start at":0,"deadline":9},
     {"point":(6,2),"start":1,"deadline":12},
     {"point":(3,7),"start":4,"deadline":8},
     {"point":(8,3),"start":3,"deadline":15}
