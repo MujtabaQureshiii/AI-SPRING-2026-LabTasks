@@ -31,9 +31,9 @@ env = Environment()
 options = env.get_options()
 
 customers = [
-    {"name": "Customer 1", "time_weight": 0.7, "cost_weight": 0.3},  
-    {"name": "Customer 2", "time_weight": 0.5, "cost_weight": 0.5}, 
-    {"name": "Customer 3", "time_weight": 0.3, "cost_weight": 0.7},  
+    {"name": "Customer no 1", "time_weight": 0.7, "cost_weight": 0.3},  
+    {"name": "Customer no 2", "time_weight": 0.5, "cost_weight": 0.5}, 
+    {"name": "Customer no 3", "time_weight": 0.3, "cost_weight": 0.7},  
 ]
 
 print("Utility-Based Shopping Assistant for Multiple Customers\n")
