@@ -59,6 +59,6 @@ backtrack()
 # Output
 print("Total valid schedules:", count)
 
-print("\nSample solutions:")
+print("\nSample_solutions:")
 for s in samples:
     print(' '.join(d + ':' + s[d] for d in days))
