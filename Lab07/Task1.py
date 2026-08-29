@@ -42,4 +42,4 @@ for s in solutions:
     result = []
     for node in sorted(s.keys()):
         result.append(node + ":" + s[node])
-    print(" ".join(result))
+    print("     ".join(result))
