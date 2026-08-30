@@ -49,8 +49,8 @@ def delivery_optimizer(start, jobs):
         current = best_choice["point"]
         tasks.remove(best_choice)
 
-    print("Final Route:", completed)
-    print("Total Time:", time_now)
+    print("Final_Route:", completed)
+    print("Total_Time:", time_now)
     return completed
 
 
