@@ -41,5 +41,5 @@ print("Total_solutions :", len(solutions))
 for s in solutions:
     result = []
     for node in sorted(s.keys()):
-        result.append(node + ":" + s[node])
+        result.append(node + " : " + s[node])
     print("     ".join(result))
