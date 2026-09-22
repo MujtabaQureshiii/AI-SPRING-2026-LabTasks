@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-ROW_COUNT = 6
+ROW_COUNT = 7
 COL_COUNT = 7
 
 # Create board
