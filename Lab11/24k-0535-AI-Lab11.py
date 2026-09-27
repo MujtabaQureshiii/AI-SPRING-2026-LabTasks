@@ -10,10 +10,10 @@ df = pd.read_csv("heart_rate.csv")
 print("First 5 rows:")
 print(df.head())
 
-print("\nDataset Info:")
+print("\nDataset_Info:")
 print(df.info())
 
-print("\nMissing Values:")
+print("\nMissing_Values:")
 print(df.isnull().sum())
 
 print("\nStatistical Summary:")
